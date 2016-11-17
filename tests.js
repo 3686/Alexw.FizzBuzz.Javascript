@@ -1,6 +1,5 @@
 require(["app"], function(App) {
 
-
     QUnit.test( "first five values", function( assert ) {
         var app = new App();
         var result = app.calculate(5);
